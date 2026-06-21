@@ -1,6 +1,6 @@
 # Test made with AI to speed up validation
 import json
-from anyagent import Agent
+from uniagent import Agent
 
 class FakeResponder:
     def __init__(self, responses):
