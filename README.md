@@ -1,4 +1,4 @@
-# agentcraft
+# llmadapt
 
 A small, zero-dependency, provider-agnostic agent for chatting with LLMs and
 giving them tools. Works with Anthropic, OpenAI, Gemini, and Ollama using only
@@ -10,21 +10,21 @@ v0.1.0
 From source (until published to PyPI):
 
 ```bash
-git clone https://github.com/Shyam-Parikh-2025/agentcraft.git
-cd agentcraft
+git clone https://github.com/Shyam-Parikh-2025/llmadapt.git
+cd llmadapt
 pip install -e .
 ```
 
 Once published:
 
 ```bash
-pip install agentcraft
+pip install llmadapt
 ```
 
 ## Quick start
 
 ```python
-from agentcraft import Agent
+from llmadapt import Agent
 
 agent = Agent(
     provider="anthropic",

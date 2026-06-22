@@ -1,5 +1,5 @@
 import json
-from agentcraft import Agent, Conversation
+from llmadapt import Agent, Conversation
 
 class FakeResponder:
     def __init__(self, responses):
